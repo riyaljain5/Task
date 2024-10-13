@@ -26,7 +26,9 @@ const Card = ({ id, active, handleClick }) => {
         ) : (
           <div className="px-8 justify-center flex flex-col">
             <h1 className="text-white font-bold text-4xl mt-24">Name</h1>
-            <h2>Services </h2>
+            <div>
+              <div>h1</div>
+            </div>
             <button className="font-bold uppercase rounded-3xl text-[16px] bg-white px-9 py-3" style={{ letterSpacing: "2px" }}>
               Book
             </button>
